@@ -1,0 +1,285 @@
+# Page settings
+
+base1 = "http://example.org/"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+[params]
+    author = "Clément Houssin"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#2298c4"
+    textPrimaryColor = "#060913"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Clément Houssin"
+        tagline = "Etudiant à l'IUT de Vannes / à l'ENSIBS"
+        avatar = "moi.jpg"
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Vannes"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "0783693971"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "clementhv86@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "www.x.com"
+        text = "www.x.com"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Compétences"
+        [[params.skills.list.items]]
+        details = "Java"
+        [[params.skills.list.items]]
+        details = "Python"
+        [[params.skills.list.items]]
+        details = ""
+        [[params.skills.list.items]]
+        details = "SQL / Base de données"
+        [[params.skills.list.items]]
+        details = "HTML / CSS"
+        [[params.skills.list.items]]
+        details = "Arduino / C"
+        [[params.skills.list.items]]
+        details = ""
+
+        [[params.skills.list]]
+        title = "Professionnel"
+        [[params.skills.list.items]]
+        details = "Travail en équipe "
+        [[params.skills.list.items]]
+        details = "Gestion de projet"
+        [[params.skills.list.items]]
+        details = ""
+        [[params.skills.list.items]]
+        details = ""
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Baccalauréat"
+        university = "Lycée Nelson Mandela Poitiers"
+        dates = "2021 - 2022"
+        [[params.education.list]]
+        degree = "Brevet des collèges"
+        university = "Collège Henri IV"
+        dates = ""
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "Certification PIX"
+        body = ""
+        date = "2021 - 2022"
+        [[params.awards.list]]
+        name = "Permis de conduire"
+        body = ""
+        date = "2022"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Français"
+        level = "Langue native"
+        [[params.languages.list]]
+        name = "Anglais"
+        level = "Université"
+        [[params.languages.list]]
+        name = "Espagnol"
+        level = "Lycée"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Tennis"
+        [[params.interests.list]]
+        name = "Ski"
+        [[params.interests.list]]
+        name = "Jeux vidéos"
+        [[params.interests.list]]
+        name = "Lecture"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Je suis un étudiant de 18 ans. J'ai passé mes années de collège et de lycée à Poitiers. Aujourd'hui j'étudie dans le cadre d'un BUT en cycle PEI ( Parcours Ecole Ingenieur ) à l'Université de Vannes ainsi qu'à l'ENSIBS."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Stage de 3ème à Cybertek"
+        dates = "2019"
+        company = "Cybertek"
+        details = "Lors de ce stage, j'ai appris a démonter / monter un pc, j'ai aussi participer à la vente de certains produits"
+        [[params.experience.list.items]]
+        details = "Compétences technique en informatique"
+        [[params.experience.list.items]]
+        details = "Relation / conseil client"
+        [[params.experience.list.items]]
+        details = "Gestion des stocks"
+
+        #[[params.experience.list]]
+        #title = "Lead Software Developer"
+        #dates = "2016 - 2019"
+        #company = "Apple"
+        #details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
+        #[[params.experience.list.items]]
+        #details = "Lorem ipsum dolor sit amet, consectetuer."
+        #[[params.experience.list.items]]
+        #details = "Aenean commodo ligula eget dolor."
+
+    
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Création de base de données"
+        meta = "UML / SQL"
+        tagline = "Au cours du cursus scolaire à l'université, j'ai réalisé de de nombreux projets notamment un projet qui consistait à creer une base de données en partant d'un certain cahier des charges"
+
+        [[params.projects.list]]
+        title = "Jeu de Grundy (Java)"
+        meta = "Java"
+        tagline = "Réalisation d'un projet de création de jeu en java, le jeu en question est le jeu de Grundy, un jeu de logique. Ce projet nous a permis de developper nos compétences en Java ,ainsi que dans le domaine de l'intelligence artificielle de bas niveau"
+
+        [[params.projects.list]]
+        title = "Création de site web vitrine"
+        meta = "HTML / CSS"
+        tagline = "J'ai réalisé en équipe, un site web comprenant une page de connection. Le site comprenait également une page permettant la modification de ses données personelle, ainsi qu'une page permettant l'upload de fichier."
+        
+       [[params.projects.list]]
+        title = "Création d'une serre connecté"
+        meta = "Arduino"
+        tagline = "En terminale, j'ai réaliser en équipe une serre connecté. Ma partie dans ce projet était de creer une application android ainsi qu'un site web permettant de contrôler la serre à distance."
+
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/Kloument"
+        title = "Clément"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com"
+        title = "Clement_H"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/Kloument"
+        title = "@kloument"
+
+
+
+
