@@ -216,12 +216,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.projects.list]]
         title = "Création de base de données"
         meta = "UML / SQL"
-        tagline = "Au cours du cursus scolaire à l'université, j'ai réalisé de nombreux projets notamment un projet qui consistait à créer une base de données en partant d'un certain cahier des charges"
+        tagline = "Au cours du cursus scolaire à l'université, j'ai réalisé de nombreux projets notamment un projet qui consistait à créer une base de données en partant d'un certain cahier des charges."
 
         [[params.projects.list]]
         title = "Jeu de Grundy (Java)"
         meta = "Java"
-        tagline = "Réalisation d'un projet de création de jeu en java, le jeu en question est le jeu de Grundy, un jeu de logique. Ce projet nous a permis de développer nos compétences en Java ,ainsi que dans le domaine de l'intelligence artificielle (bas niveau)"
+        tagline = "Réalisation d'un projet de création de jeu en java, le jeu en question est le jeu de Grundy, un jeu de logique. Ce projet nous a permis de développer nos compétences en Java, ainsi que dans le domaine de l'intelligence artificielle (bas niveau)."
 
         [[params.projects.list]]
         title = "Création de site web vitrine"
@@ -231,7 +231,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
        [[params.projects.list]]
         title = "Création d'une serre connectée"
         meta = "Arduino"
-        tagline = "En terminale, j'ai réaliser en équipe une serre connectée. Ma partie dans ce projet était de cré	er une application android ainsi qu'un site web permettant de contrôler la serre à distance."
+        tagline = "En terminale, j'ai réalisé en équipe une serre connectée. Ma partie dans ce projet était de créer une application android ainsi qu'un site web permettant de contrôler la serre à distance."
 
 
 
