@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://Kloument.github.io/portfolio/"
+baseURL = "http://Kloument.github.io/portfolio/"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
@@ -38,16 +38,16 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
-        url = "tel:#"
+        url = "tel:0783693971"
         text = "0783693971"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
-        url = "mailto:#"
+        url = "mailto:clementhv86@gmail.com"
         text = "clementhv86@gmail.com"
         [[params.contact.list]]
         icon = "fas fa-globe"
-        url = "www.x.com"
-        text = "www.x.com"
+        url = "http://x.com/"
+        text = "https://x.com"
 
 
 
@@ -67,7 +67,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list.items]]
         details = ""
         [[params.skills.list.items]]
-        details = "SQL / Base de données"
+        details = "SQL / UML"
         [[params.skills.list.items]]
         details = "HTML / CSS"
         [[params.skills.list.items]]
@@ -172,7 +172,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "Je suis un étudiant de 18 ans. J'ai passé mes années de collège et de lycée à Poitiers. Aujourd'hui j'étudie dans le cadre d'un BUT en cycle PEI ( Parcours Ecole Ingenieur ) à l'Université de Vannes ainsi qu'à l'ENSIBS."
+        text = "Je suis un étudiant de 18 ans. J'ai passé mes années de collège et de lycée à Poitiers. Aujourd'hui j'étudie dans le cadre d'un BUT en cycle PEI ( Parcours École Ingénieur ) à l'université de Vannes ainsi qu'à l'ENSIBS."
 
 
 
@@ -188,9 +188,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Stage de 3ème à Cybertek"
         dates = "2019"
         company = "Cybertek"
-        details = "Lors de ce stage, j'ai appris a démonter / monter un pc, j'ai aussi participer à la vente de certains produits"
+        details = "Lors de ce stage, j'ai appris à démonter / monter un pc, j'ai aussi participé à la vente de certains produits"
         [[params.experience.list.items]]
-        details = "Compétences technique en informatique"
+        details = "Compétences techniques en informatique"
         [[params.experience.list.items]]
         details = "Relation / conseil client"
         [[params.experience.list.items]]
@@ -216,22 +216,22 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.projects.list]]
         title = "Création de base de données"
         meta = "UML / SQL"
-        tagline = "Au cours du cursus scolaire à l'université, j'ai réalisé de de nombreux projets notamment un projet qui consistait à creer une base de données en partant d'un certain cahier des charges"
+        tagline = "Au cours du cursus scolaire à l'université, j'ai réalisé de nombreux projets notamment un projet qui consistait à créer une base de données en partant d'un certain cahier des charges"
 
         [[params.projects.list]]
         title = "Jeu de Grundy (Java)"
         meta = "Java"
-        tagline = "Réalisation d'un projet de création de jeu en java, le jeu en question est le jeu de Grundy, un jeu de logique. Ce projet nous a permis de developper nos compétences en Java ,ainsi que dans le domaine de l'intelligence artificielle de bas niveau"
+        tagline = "Réalisation d'un projet de création de jeu en java, le jeu en question est le jeu de Grundy, un jeu de logique. Ce projet nous a permis de développer nos compétences en Java ,ainsi que dans le domaine de l'intelligence artificielle (bas niveau)"
 
         [[params.projects.list]]
         title = "Création de site web vitrine"
         meta = "HTML / CSS"
-        tagline = "J'ai réalisé en équipe, un site web comprenant une page de connection. Le site comprenait également une page permettant la modification de ses données personelle, ainsi qu'une page permettant l'upload de fichier."
+        tagline = "J'ai réalisé en équipe, un site web comprenant une page de connexion. Le site comprenait également une page permettant la modification de ses données personnelles, ainsi qu'une page permettant l'upload de fichier."
         
        [[params.projects.list]]
-        title = "Création d'une serre connecté"
+        title = "Création d'une serre connectée"
         meta = "Arduino"
-        tagline = "En terminale, j'ai réaliser en équipe une serre connecté. Ma partie dans ce projet était de creer une application android ainsi qu'un site web permettant de contrôler la serre à distance."
+        tagline = "En terminale, j'ai réaliser en équipe une serre connectée. Ma partie dans ce projet était de cré	er une application android ainsi qu'un site web permettant de contrôler la serre à distance."
 
 
 
@@ -244,18 +244,19 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.information]
-        enable = false
+        enable = true
+
+        #[[params.information.list]]
+        #title = "Papers"
+        #[[params.information.list.items]]
+        #details = "2018 · Lorem Ipsum"
+        #[[params.information.list.items]]
+        #details = "2016 · Sed Fringilla"
 
         [[params.information.list]]
-        title = "Papers"
-        [[params.information.list.items]]
-        details = "2018 · Lorem Ipsum"
-        [[params.information.list.items]]
-        details = "2016 · Sed Fringilla"
-
-        [[params.information.list]]
-        title = "Interests"
-        details = "Climbing, Snowboarding, Photography, Travelling"
+        title = "Cybersécurité"
+        details = "Étant depuis petit intéressé par le monde de la cybersécurité, j'ai appris en autodidacte les bases de la cybersécurité en faisant différents challenges, défis et CTF (Capture The Flag) sur des sites tels que : tryhackme.com et root-me.org"
+       
 
 
 
@@ -277,9 +278,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Clement_H"
         [[params.social.list]]
         icon = "fab fa-twitter-square"
-        url = "//twitter.com/Kloument"
-        title = "@kloument"
-
+        url = "https://twitter.com/KMbappe/status/1596580440101748741?s=20&t=9cNe_RJF-xPh6A_4VUo8iA"
+        title = "@Clement"
 
 
 
