@@ -1,6 +1,6 @@
 # Page settings
 
-base1 = "http://example.org/"
+baseURL = "http://Kloument.github.io/portfolio/"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
