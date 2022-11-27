@@ -1,11 +1,11 @@
 - id: awards
-  translation: Certification
+  translation: Certifications
 - id: education
   translation: Education
 - id: experiences
-  translation: Experience Professionnelle
+  translation: Experiences Professionnelles
 - id: information
-  translation: Information
+  translation: Interêt personnel
 - id: interests
   translation: Interêts
 - id: languages
